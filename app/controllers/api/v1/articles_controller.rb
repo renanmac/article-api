@@ -1,5 +1,5 @@
 class Api::V1::ArticlesController < ApplicationController
-  before_action :set_article, only: [:show, :update, :delete]
+  before_action :set_article, only: [:show, :update, :destroy]
 
   def index
     @articles = Article.all
@@ -27,7 +27,7 @@ class Api::V1::ArticlesController < ApplicationController
     end
   end
 
-  def delete
+  def destroy
     @article.destroy
   end
 
