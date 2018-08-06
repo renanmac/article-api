@@ -6,10 +6,6 @@ class ArticleTest < ActiveSupport::TestCase
     @article = Article.new
   end
 
-  test "should be instance of Article" do
-    assert_instance_of(Article, @article)
-  end
-
   test "should not article without Title" do
     assert_not @article.save, "Saved article without title"
   end
