@@ -6,7 +6,7 @@
 
 2- Run `rails db:seed` to create 20 Articles (optional)
 
-3- `GET "/api/v1/articles"` return 10 Articles, `"/api/v1/articles?page={page}` to navigate between pages
+3- `GET "/api/v1/articles"` return 10 Articles, `"/api/v1/articles?page={page}"` to navigate between pages
 
 ### Endpoints:
 
